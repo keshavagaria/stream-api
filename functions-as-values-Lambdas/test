@@ -1,0 +1,13 @@
+value1  =  ()->System.out.pritnln("Hello World");
+
+value2  =  (int a) ->  return a*2;      --------->   (a) -> return a*2;
+
+value3 = (int a, int b) -> return a+b;   --------> (a,b) -> retrun a+b;
+
+value4 = (int a,int b) -> {        ------------>  (a,b)->{if(b==0) return 0; return a/b;
+		if(b==0) return 0;
+		return a/b;
+		
+		};
+		
+value5 = (String s) -> s.length();   -------------->  (s)->s.length();
